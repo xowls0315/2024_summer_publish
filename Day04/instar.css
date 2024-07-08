@@ -1,0 +1,72 @@
+.story {
+    width: 100px;
+    height: 110px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #c7c7cc;
+    border-radius: 9999px;
+    padding: 2px;
+
+}
+/* > [자식 가리킴] */
+.image > img {
+    width: 100%;
+    height: 100%;
+    /* 둥글게 하기 */
+    border-radius: 9999px; 
+    /* 사진 비율 맞추기 */
+    object-fit: cover;
+}
+.name {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    /* padding(안) <-> margin(밖) */
+}
+.man {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #f72f82;
+    border-radius: 9999px;
+    padding: 2px;
+
+}
+.man > img {
+    width: 100%;
+    height: 100%;
+    /* 둥글게 하기 */
+    border-radius: 9999px; 
+    /* 사진 비율 맞추기 */
+    object-fit: cover;
+}
+.man > name {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.woman {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #f72f82;
+    border-radius: 9999px;
+    padding: 2px;
+
+}
+.woman > img {
+    width: 100%;
+    height: 100%;
+    /* 둥글게 하기 */
+    border-radius: 9999px; 
+    /* 사진 비율 맞추기 */
+    object-fit: cover;
+}
+.woman > name {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 5px;
+}

@@ -76,3 +76,10 @@ li:hover{
 .floatingButton:hover {
     background-color: rgb(219, 59, 87);
 }
+@media screen and (max-width: 768px) {
+    .floatingButton{
+        width: 80vw;
+        right: 10%;
+        text-align: center;
+    }
+}

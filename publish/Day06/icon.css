@@ -1,0 +1,31 @@
+.icon{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+
+    /* 주축: 가로 */
+    /* 자식들을 주축으로 맨앞(start) 가운데(center) 맨뒤(end) 균일한 간격: space-between */
+    justify-content: space-around;
+
+    align-items: center;
+    border: 1px solid black;
+
+}
+.man, .clothes, .jewellery, .cap, .life{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.man > i, .clothes > i, .jewellery > i, .cap > i, .life > i {
+    font-size: 50px;
+
+}
+.man > span, .clothes > span, .jewellery > span, .cap > span, .life > span {
+    margin-top: 10px;
+    font-weight: 500;
+    color: gray;
+}

@@ -1,0 +1,48 @@
+.sale {
+    background-color: #fd5f2f;
+    color: white;
+    border-radius: 50px;
+    font-size:30px;
+    font-weight: 600;
+    width:120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.today {
+    background-color: #fd25bc;
+    color: white;
+    border-radius: 50px;
+    font-size:30px;
+    font-weight: 600;
+    width:200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.factory {
+    background-color: #190088;
+    color: white;
+    font-size:25px;
+    font-weight: 500;
+    width:300px;
+    border: 3px solid red;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.center {
+    background-color: #190088;
+    color: white;
+    font-size:25px;
+    font-weight: 500;
+    width:300px;
+    border: 3px solid red;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}

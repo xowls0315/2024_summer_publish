@@ -1,0 +1,78 @@
+.pill{
+    display: flex;
+    flex-direction: row;
+}
+.whole{
+    width:fit-content;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 5px 15px 5px 15px;
+    margin-right: 10px;
+    background-color: blue;
+    color: white;
+}
+.motel{
+    width:fit-content;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 5px 15px 5px 15px;
+    margin-right: 10px;
+}
+.hotel{
+    width:fit-content;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+}
+.pension{
+    width:fit-content;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+}
+.black{
+    width:fit-content;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+}
+.camping{
+    width:fit-content;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+}
+.home{
+    width:fit-content;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+}
+.guest{
+    width:fit-content;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+}
